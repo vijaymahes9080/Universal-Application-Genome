@@ -35,26 +35,28 @@ graph TD
 
 ---
 
+## 🎨 Visual Showcase Gallery
+
+| Module Interface | Description | Asset Preview |
+| :--- | :--- | :--- |
+| **Software Species Phylogeny Tree** | 3D visual evolutionary tree of software species | [![Taxonomy](docs/images/species_taxonomy_tree.png)](docs/SPECIES_TAXONOMY.md) |
+| **Genome Recombination Matrix** | Multi-parent app crossover statistics & innovation metrics | [![Recombination](docs/images/genome_recombination_matrix.png)](docs/RECOMBINATION.md) |
+| **Neural RAG Vector Indexer** | 3D embedding space visualization & cosine distance index | [![RAG Vector](docs/images/rag_vector_genome.png)](backend/app/services/rag_vector.py) |
+| **CRISPR Code Splicer** | Autonomous feature splicing & split-screen AST code diff | [![CRISPR](docs/images/crispr_editor_mockup.png)](docs/CRISPR_SPLICING_GUIDE.md) |
+| **Digital Twin Chaos Lab** | Real-time load telemetry & bio-resilient auto-patching | [![Digital Twin](docs/images/digital_twin_telemetry.png)](docs/DIGITAL_TWIN_CHAOS.md) |
+
+---
+
 ## 🔥 Key Platform Modules
 
 ### 1. ✂️ CRISPR-Code Editor (`/crispr`)
-
-![CRISPR Code Splicer Interface](docs/images/crispr_editor_mockup.png)
-
 - **Autonomous Feature Splicing**: Select high-fidelity software genes (Stripe Payments, Zero-Trust JWT Auth, Real-Time WebSockets Sync, RAG Vector Search) from donor codebases.
 - **AST Splicing Engine**: Automatically splices donor routers, schemas, and logic into target application genomes with conflict detection and live code diff previews.
 
----
-
 ### 2. ⚡ Digital Twin & Chaos Stress Simulator (`/simulation`)
-
-![Digital Twin Chaos Command Center](docs/images/digital_twin_telemetry.png)
-
 - **Chaos Vector Injection**: Stress-test application genomes under DDOS SYN floods, AST SQL injection exploits, and memory heap leaks.
 - **Interactive Intensity Slider**: Adjust stress levels from 1 to 10 to simulate up to 200,000 requests/sec.
 - **Bio-Resilient Auto-Patching**: Generates adaptive code patches (circuit breakers, token buckets, parameterized AST bindings) to fix vulnerabilities live.
-
----
 
 ### 3. 🕸️ Software Genome Graph (`/genome-graph`)
 - Interactive Cytoscape.js canvas displaying compound clusters, module relationships, API nodes, and dependency links with integrated code preview.
