@@ -1,9 +1,10 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { Award, Compass, Cpu, HelpCircle, Leaf, ShieldCheck, GitBranch } from 'lucide-react'
+import { Award, Compass, Cpu, HelpCircle, Leaf, ShieldCheck, GitBranch, Zap } from 'lucide-react'
 import { fetchApplications, fetchApplicationDetails } from '../../lib/api'
 import TimelineView from '../../components/TimelineView'
+
 
 export default function ResearchPage() {
   const [apps, setApps] = useState<any[]>([])
