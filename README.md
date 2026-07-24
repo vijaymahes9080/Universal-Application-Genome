@@ -42,8 +42,12 @@ graph TD
 | **Software Species Phylogeny Tree** | 3D visual evolutionary tree of software species | [![Taxonomy](docs/images/species_taxonomy_tree.png)](docs/SPECIES_TAXONOMY.md) |
 | **Genome Recombination Matrix** | Multi-parent app crossover statistics & innovation metrics | [![Recombination](docs/images/genome_recombination_matrix.png)](docs/RECOMBINATION.md) |
 | **Neural RAG Vector Indexer** | 3D embedding space visualization & cosine distance index | [![RAG Vector](docs/images/rag_vector_genome.png)](backend/app/services/rag_vector.py) |
+| **AI Blueprint Architect** | Automated node synthesis & blueprint flowcharting | [![Blueprint](docs/images/ai_blueprint_architect.png)](docs/AI_BLUEPRINT_ARCHITECT.md) |
+| **Software Gene Vault** | Modular software feature capsule storage & preview | [![Gene Vault](docs/images/software_gene_vault.png)](docs/GENE_VAULT.md) |
+| **Green Computing Telemetry** | Energy efficiency gauges & carbon footprint telemetry | [![Sustainability](docs/images/sustainability_footprint.png)](docs/SUSTAINABILITY.md) |
 | **CRISPR Code Splicer** | Autonomous feature splicing & split-screen AST code diff | [![CRISPR](docs/images/crispr_editor_mockup.png)](docs/CRISPR_SPLICING_GUIDE.md) |
 | **Digital Twin Chaos Lab** | Real-time load telemetry & bio-resilient auto-patching | [![Digital Twin](docs/images/digital_twin_telemetry.png)](docs/DIGITAL_TWIN_CHAOS.md) |
+
 
 ---
 
