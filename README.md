@@ -1,5 +1,7 @@
 # 🧬 Universal Application Genome (UAG)
 
+![Universal Application Genome Banner](docs/images/uag_hero_banner.png)
+
 > **"Decode software. Learn its DNA. Splice features, stress-test digital twins, and evolve entirely new applications."**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
@@ -36,13 +38,23 @@ graph TD
 ## 🔥 Key Platform Modules
 
 ### 1. ✂️ CRISPR-Code Editor (`/crispr`)
+
+![CRISPR Code Splicer Interface](docs/images/crispr_editor_mockup.png)
+
 - **Autonomous Feature Splicing**: Select high-fidelity software genes (Stripe Payments, Zero-Trust JWT Auth, Real-Time WebSockets Sync, RAG Vector Search) from donor codebases.
 - **AST Splicing Engine**: Automatically splices donor routers, schemas, and logic into target application genomes with conflict detection and live code diff previews.
 
+---
+
 ### 2. ⚡ Digital Twin & Chaos Stress Simulator (`/simulation`)
+
+![Digital Twin Chaos Command Center](docs/images/digital_twin_telemetry.png)
+
 - **Chaos Vector Injection**: Stress-test application genomes under DDOS SYN floods, AST SQL injection exploits, and memory heap leaks.
 - **Interactive Intensity Slider**: Adjust stress levels from 1 to 10 to simulate up to 200,000 requests/sec.
 - **Bio-Resilient Auto-Patching**: Generates adaptive code patches (circuit breakers, token buckets, parameterized AST bindings) to fix vulnerabilities live.
+
+---
 
 ### 3. 🕸️ Software Genome Graph (`/genome-graph`)
 - Interactive Cytoscape.js canvas displaying compound clusters, module relationships, API nodes, and dependency links with integrated code preview.
