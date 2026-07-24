@@ -1,8 +1,13 @@
-# Universal Application Genome (UAG)
+# 🧬 Universal Application Genome (UAG)
 
-> **"Decode software. Learn its DNA. Create entirely new applications."**
+> **"Decode software. Learn its DNA. Splice features, stress-test digital twins, and evolve entirely new applications."**
 
-Universal Application Genome (UAG) is a production-grade open-source platform that treats software codebases as living organisms. By parsing source files, UAG extracts abstract semantic **"genes"** (representing user experience layouts, security constraints, database structures, business layers, and event streams), maps them into a unified **Software Genome Graph**, simulates operational runs, and evolves entirely new hybrid platforms through **genome recombination**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](backend)
+[![Next.js 14](https://img.shields.io/badge/Next.js-14-black.svg)](frontend)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg)](backend)
+
+Universal Application Genome (UAG) is a production-grade open-source platform that treats software codebases as living organisms. By parsing source files, UAG extracts abstract semantic **"genes"** (representing user experience layouts, security constraints, database structures, business layers, and event streams), maps them into a unified **Software Genome Graph**, simulates operational runs under chaos conditions, splices features via **CRISPR Code Editing**, and evolves entirely new hybrid platforms through **genome recombination**.
 
 UAG is built to run fully locally without Docker, using SQLite, NetworkX graphs, and interfaces with a local Ollama service with built-in rule-based fallback semantics.
 
@@ -14,31 +19,39 @@ The platform is structured into two main decoupled services:
 
 ```mermaid
 graph TD
-    A[Source Code Repository / ZIP] -->|Ingestion Service| B(AST Parser & Extensions Analyser)
-    B -->|DNA Aggregator| C[extracted genes: Auth, Payments, DB, UX]
+    A[Source Code Repository / Local Directory] -->|Ingestion Service| B(AST Parser & Extensions Analyser)
+    B -->|DNA Aggregator| C[Extracted Genes: Auth, Payments, DB, UX]
     C -->|NetworkX graph engine| D[Genome Graph Database]
-    D -->|Ollama / local fallback engine| E[AI Blueprints Architect]
     
-    C -->|Recombination crossover| F[Hybrid Offspring App]
-    F -->|Monte Carlo telemetry simulation| G[Telemetry: Latency, bugs, frustration]
-    F -->|Export Service| H[Boilerplate ZIP: FastAPI + Next.js]
+    C -->|CRISPR Splicer| E[Target App AST Code Splicing]
+    D -->|Digital Twin Engine| F[Chaos Stress & Vulnerability Testing]
+    C -->|Recombination Crossover| G[Hybrid Offspring App]
+    
+    F -->|Telemetry| H[Bio-Resilient Code Patches]
+    G -->|Export Service| I[Boilerplate ZIP: FastAPI + Next.js]
 ```
 
-### 1. Backend Service (Python / FastAPI)
-- **Ingestion Engine** (`backend/app/services/ingestion.py`): Recursively walks repositories, counts extensions ratios, parses syntax files, and extracts genes.
-- **DNA Extraction Aggregator** (`backend/app/services/dna_extraction.py`): Collates individual genes into distinct categories (Business, UX, Architecture, Workflow) and runs taxonomy species classification.
-- **Software Genome Graph** (`backend/app/services/genome_graph.py`): Formulates relationship structures linking parent nodes to modules, components, APIs, and table nodes.
-- **Evolution Recombination & Mutation** (`backend/app/services/evolution.py`): Merges parent application genes, processes mutations (e.g. adding offline fallback sync hooks), and gauges fitness scores.
-- **Simulation Sandbox** (`backend/app/services/simulation.py`): Predicts error vectors and latency constraints by running virtual Monte Carlo checks for 1000 UX journeys, scaling loads, and exploits.
-- **Code Export Scaffolder** (`backend/app/services/export.py`): Packages generated SQLite schemas, FastAPI routers, and Next.js view containers into an exportable ZIP folder.
+---
 
-### 2. Frontend Web Interface (Next.js / TypeScript)
-- **Landing Dashboard** (`frontend/src/app/page.tsx`): Overview metrics containing ingested apps, genes catalogued, and active evolved systems.
-- **Ingestion portal** (`frontend/src/app/ingest/page.tsx`): Form layout allowing local file path entry, displaying file-by-file parser animations.
-- **Genome Graph Explorer** (`frontend/src/app/genome-graph/page.tsx`): Interactive Cytoscape.js canvas showing compound clusters. Integrates Monaco Editor to preview code segments directly on click.
-- **Recombination Sandbox** (`frontend/src/app/evolution/page.tsx`): Multi-select crossover panel displaying evolved gene metrics and ZIP downloads.
-- **Simulations Dashboard** (`frontend/src/app/simulation/page.tsx`): Displays Monte Carlo log events and slider statistics.
-- **Species Research Taxonomy** (`frontend/src/app/research/page.tsx`): Tracks parent-offspring family trees, patent similarities, and sustainability computing footprints.
+## 🔥 Key Platform Modules
+
+### 1. ✂️ CRISPR-Code Editor (`/crispr`)
+- **Autonomous Feature Splicing**: Select high-fidelity software genes (Stripe Payments, Zero-Trust JWT Auth, Real-Time WebSockets Sync, RAG Vector Search) from donor codebases.
+- **AST Splicing Engine**: Automatically splices donor routers, schemas, and logic into target application genomes with conflict detection and live code diff previews.
+
+### 2. ⚡ Digital Twin & Chaos Stress Simulator (`/simulation`)
+- **Chaos Vector Injection**: Stress-test application genomes under DDOS SYN floods, AST SQL injection exploits, and memory heap leaks.
+- **Interactive Intensity Slider**: Adjust stress levels from 1 to 10 to simulate up to 200,000 requests/sec.
+- **Bio-Resilient Auto-Patching**: Generates adaptive code patches (circuit breakers, token buckets, parameterized AST bindings) to fix vulnerabilities live.
+
+### 3. 🕸️ Software Genome Graph (`/genome-graph`)
+- Interactive Cytoscape.js canvas displaying compound clusters, module relationships, API nodes, and dependency links with integrated code preview.
+
+### 4. 🧬 Evolution & Recombination Sandbox (`/evolution`)
+- Combine multiple parent application genomes to create hybrid offspring applications, complete with downloadable FastAPI + Next.js boilerplate archives.
+
+### 5. 🔬 Species Research Taxonomy (`/research`)
+- Track parent-offspring family trees, patent similarity indexes, and sustainability computing footprints.
 
 ---
 
@@ -99,3 +112,9 @@ Ensure you have the following installed on your host system:
 UAG will automatically establish client connections to a local Ollama service at `http://localhost:11434/api/chat` using model `deepseek-coder:6.7b` (or your customized model tag).
 
 *If Ollama is not active or running, the UAG backend automatically switches to its high-fidelity local semantic rule analyzer. This parses files, detects dependencies, outlines architectures, and recombines genomes deterministically, guaranteeing zero setup delays.*
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE). Copyright (c) 2026 Vijay Mahes.
