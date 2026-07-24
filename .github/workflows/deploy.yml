@@ -1,6 +1,7 @@
 name: Deploy Universal Application Genome to GitHub Pages
-
+# Trigger deployment on push to main branch with visual assets
 on:
+
   push:
     branches: ["main"]
   workflow_dispatch:
